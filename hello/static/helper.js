@@ -62,8 +62,6 @@ $(document).ready(function()
 		            timeout: 120000,
 		      });
 
-			
-
 		});
 
 });

@@ -3,14 +3,14 @@
 <head>
 	<title>Uber Buddy</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<!-- Bootstrap -->
 	<link rel="shortcut icon" href="https://2q72xc49mze8bkcog2f01nlh-wpengine.netdna-ssl.com/wp-content/themes/uber/images/favicon.ico">
+	<!-- Bootstrap -->
 	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css">
 
-	<link href="http://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600" rel="stylesheet" />
 
 	<style>
 
@@ -56,6 +56,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.10/js/dataTables.bootstrap.min.js"></script>
+
 	{% load staticfiles %}
     
     <script type="text/javascript" src="{% static 'form-data.js'%}" ></script>
@@ -70,9 +71,9 @@
 			<div class="col-md-6 col-md-offset-3 panel panel-default">
 
 				<h1 class="margin-base-vertical" align="center">Get Uber Fare</h1>
+				<h6 class="margin-base-vertical" align="center"> (Ola ka bhi aayega thode din mein)</h6>
 
-
-				<form class="margin-base-horizontal">
+				<form class="margin-base-horizontal">	
 					<p class="input-group">
 						<span class="input-group-addon"></span>
 
@@ -117,8 +118,21 @@
 		<div id="map"></div>
 	</div>
 
+
+
+	  <div class="navbar navbar-default navbar-fixed-bottom">
+	    <div class="container">
+	      <div class="navbar navbar-default navbar-fixed-bottom">
+		    <div class="container">
+		      <p align-text="left"><font size="2">Bouquets and Brickbats: <a href="mailto:utsav.tiwary2011@gmail.com"> utsav.tiwary2011@gmail.com</a></font></p>
+		    </div>
+	  	  </div>
+	    </div>
+	  </div>
+
+
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-Gjijo9Z5AJ2ivwSu4kurEEW9g4C2PKs&signed_in=true&libraries=places&callback=initMap"
         async defer></script>
-
 </body>
+
 </html>
