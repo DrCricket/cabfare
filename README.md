@@ -12,3 +12,6 @@ You need to have API access keys for Uber API and Google Maps API. Get them here
 Use the keys in the following files :
 - **hello/templates/landing.html** (Google Maps API)
 - **hello/static/helper.js** (Uber API)
+
+
+View it live on Heroku [here](https://farewala.herokuapp.com)
