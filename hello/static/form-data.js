@@ -1,7 +1,7 @@
 var location_src;
 var location_dst;
-
-
+var autocomplete_src
+var autocomplete_dst
 
 function initMap() {
 
@@ -10,12 +10,12 @@ function initMap() {
     zoom: 10
   });
 
-  var input = document.getElementById('pac-input');
+  var input = document.getElementById('pac-source');
   var destination = document.getElementById('pac-destination');
 
 
-  var autocomplete_src = new google.maps.places.Autocomplete(input);
-  var autocomplete_dst = new google.maps.places.Autocomplete(destination);
+  autocomplete_src = new google.maps.places.Autocomplete(input);
+  autocomplete_dst = new google.maps.places.Autocomplete(destination);
 
   // autocomplete_src.bindTo('bounds', map);
   // autocomplete_dst.bindTo('bounds', map);
