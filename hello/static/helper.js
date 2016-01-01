@@ -31,7 +31,7 @@ $(document).ready(function()
 	      // 		$('#getFare').show();
 	      // 		return;
 	      // }
-	      var base_url ="https://api.uber.com/v1/estimates/price?server_token=ESzT96BS6wpL-wJO_bpAKttnGgQHzseqiCsYwK3u";
+	      var base_url ="https://api.uber.com/v1/estimates/price?server_token=UBER_API_KEY";
 	      var src_lat = location_src.geometry.location.lat();
 	      var src_lng = location_src.geometry.location.lng();
 	      var dst_lat = location_dst.geometry.location.lat();
