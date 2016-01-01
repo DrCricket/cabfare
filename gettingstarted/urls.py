@@ -6,9 +6,6 @@ admin.autodiscover()
 import hello.views
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'gettingstarted.views.home', name='home'),
-    # url(r'^blog/', include('blog.urls')),
 
     url(r'^', hello.views.uber_data, name='uber_data'),
 
